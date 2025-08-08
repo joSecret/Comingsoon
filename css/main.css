@@ -7,12 +7,18 @@
 
   --c-primary: #009cf6;
   --c-secondary: #5d43b5;
+
+  --container_m-w: min(960px, 100% - 60px);
+
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*---------------------------------------------*/
-.container {max-width: 1200px;}
+.container {
+  width: var(--container_m-w);
+}
 
 .flex-w {
   gap:20px;
@@ -116,23 +122,23 @@
 [ S-Text 0 - 15 ]*/
 
 /*---------------------------------------------*/
-font-family: var(--ff);
 .s2-txt1 {
+  font-family: var(--ff);
   font-size: 12px;
   line-height: 1;
   color: #846add;
   text-transform: uppercase;
 }
 
-font-family: var(--ff);
 .s2-txt2 {
+  font-family: var(--ff);
   font-size: 15px;
   line-height: 1.4;
   color: #846add;
 }
 
-font-family: var(--ff);
 .s2-txt3 {
+  font-family: var(--ff);
   font-size: 15px;
   line-height: 1.4;
   color: #fff;
@@ -194,7 +200,7 @@ h3 {
 }
 
 .wrapper {
-  width: min(960px, 100% - 40px);
+  width: var(--container_m-w);
   margin-inline: auto;
   text-wrap: balance;
   row-gap: clamp(1.875rem, 0.5966rem + 5.6818vw, 5rem)
@@ -423,7 +429,9 @@ h3 {
 
 /* [ Chat ] */
 .prefix_chat-widget {
-  width: calc(100% - 60px) !important;
+  width: var(--container_m-w) !important;
+  margin-inline: auto !important;
+  inset-inline: 0 !important;
 }
 
 .prefix_chat-icon {
