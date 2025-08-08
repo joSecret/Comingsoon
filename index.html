@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Coming Soon 2</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<!--  -->
+	<div class="simpleslide100">
+		<div class="simpleslide100-item">
+			<video autoplay muted loop playsinline preload="auto" style="width: 100%; height: 100%; object-fit: cover;">
+				<source src="images/v2.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+	</div>
+
+	<div class="size1 overlay1">
+		<div class="wrapper flex-col-c-m p-t-50 p-b-50">
+			<h3 class="l1-txt1 txt-center">
+				We Build Websites That Think.
+				And Automations That Sell.
+			</h3>
+
+			<p class="m2-txt1 txt-center">
+				SoftXPro delivers AI-powered websites and automations flow, and digital systems for growth-driven thems and founders.
+			</p>
+
+			<form class="w-full flex-w flex-c-m validate-form" id="chatForm">
+
+				<div class="wrap-input100 validate-input where1">
+					<input class="input100 placeholder0 s2-txt2" type="text" name="text" placeholder="What can we help with today?" id="userInput">
+					<span class="focus-input100"></span>
+				</div>
+
+
+				<button type="button" class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1" id="askAiBtn" onclick="openChatWithInput()">
+					Ask AI
+				</button>
+			</form>
+		</div>
+	</div>
+
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+	<script src="https://app.nextbot.ru/chat-widget-bundle-ver2.js"></script>
+	<script>
+		initializeChatWidget({
+		agentId: "c4ca11c8-4a1d-41c1-a339-f2df7696a66a",
+		chatIconNumberSvg: "1",
+		chatIconLineColor: "#fff",
+		chatIconBackgroundColor: "#1a73e8",
+		secondsToAutoinvite: "0",
+		messageAutoInvite: "Hi! I can help with any questions!",
+		bgColorAutoInvite: "#9ecceb",
+		textColorAutoInvite: "#000000",
+		widgetBottom: "30",
+		widgetRight: "30"
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+</body>
+</html>
+</body>
+</html>
