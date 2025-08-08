@@ -8,7 +8,7 @@
   --c-primary: #009cf6;
   --c-secondary: #5d43b5;
 
-  --container_m-w: min(960px, 100% - 60px);
+  --container_m-w: min(960px, calc(100dvw - 60px));
 
 
 }
@@ -16,10 +16,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*---------------------------------------------*/
-.container {
-  width: var(--container_m-w);
-}
-
 .flex-w {
   gap:20px;
 }
