@@ -151,6 +151,7 @@ font-family: var(--ff);
   font-size: clamp(1.125rem, 0.946rem + 0.7955vw, 1.5625rem);
   line-height: 1.2;
   color: #fff;
+  text-wrap: balance;
 }
 
 .m2-txt2 {
